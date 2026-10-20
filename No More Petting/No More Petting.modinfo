@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="156c6432-7d78-4f7d-9e05-ddf8b4e44d3e" version="1">
+  <Properties>
+    <Name>No More Petting</Name>
+    <Description>Love your scouts, but tired of them stopping to give belly rubs when there's exploring to be done? This mod removes the "Pet The Dog" command from the UI, preventing those accidental clicks that slow your journey to world domination.</Description>
+    <Created>1739590814</Created>
+    <Teaser>Your scouts may still love their loyal companions, but now, they’ll show it by actually doing their job.</Teaser>
+    <Authors>Alkeari</Authors>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <InGameActions>
+    <UpdateDatabase id="Database">
+      <File>Database/HidePetTheDog.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>Database/HidePetTheDog.sql</File>
+  </Files>
+</Mod>
